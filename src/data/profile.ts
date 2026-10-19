@@ -11,7 +11,7 @@ export const profile = {
   educationPeriod3: "2021",
   email: "sahilji955@gmail.com",
   github: "https://github.com/Sahilji-95",
-  linkedin: "www.linkedin.com/in/sahil-kumar-gautam-2538a6361",
+  linkedin: "https://www.linkedin.com/in/sahil-kumar-gautam-2538a6361",
 } as const;
 
 export const skillGroups = [
