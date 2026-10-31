@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState, type FormEvent } from "react";
 import {
   ArrowDown,
@@ -583,6 +584,11 @@ export default function Portfolio({
                       >
                         Live demo <ExternalLink size={13} />
                       </a>
+                    )}
+                    {project.caseStudyUrl && (
+                      <Link href={project.caseStudyUrl}>
+                        Case study <ArrowRight size={13} />
+                      </Link>
                     )}
                     {!project.repoUrl && !project.demoUrl && (
                       <span className="links-pending">Links coming soon</span>

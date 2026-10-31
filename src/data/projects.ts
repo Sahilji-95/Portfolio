@@ -5,18 +5,33 @@ export type Project = {
   stack: string[];
   repoUrl: string | null;
   demoUrl: string | null;
+  caseStudyUrl?: string;
   visual: "wonderlust" | "video" | "social" | "trading";
 };
 
 export const projects: Project[] = [
   {
-    title: "Social Media Application",
+    title: "Connect Pros",
     description:
-      "A social product concept centered on user profiles, sharing posts, and community interactions.",
-    features: ["User profiles", "Post creation", "Social interactions"],
-    stack: ["Next.js", "Node.js", "Express", "MongoDB", "Render", "Vercel"],
+      "A professional networking platform with connections, a social feed, notifications and real-time one-to-one chat.",
+    features: [
+      "Email OTP signup with cookie-based JWT sessions",
+      "Connection requests and a social feed",
+      "Real-time chat with presence and read receipts",
+    ],
+    stack: [
+      "Next.js",
+      "Redux Toolkit",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "Render",
+      "Vercel",
+    ],
     repoUrl: "https://github.com/Sahilji-95/Connect-Pros-Backend",
     demoUrl: "https://connect-pros-frontend.vercel.app/",
+    caseStudyUrl: "/projects/connect-pros",
     visual: "social",
   },
   {
