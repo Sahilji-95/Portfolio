@@ -35,13 +35,27 @@ export const projects: Project[] = [
     visual: "social",
   },
   {
-    title: "Real-Time Video Calling",
+    title: "Sahil Zoom — Real-Time Video Conferencing",
     description:
-      "An exploration of browser-based video communication and real-time connection flows.",
-    features: ["Peer-to-peer video", "Real-time signaling", "Room-based calls"],
-    stack: ["React", "Node.js", "Socket.io", "WebRTC", "Render"],
+      "A browser-based video-conferencing application built with WebRTC and Socket.IO, featuring multi-participant calls, screen sharing, real-time chat, and meeting history.",
+    features: [
+      "Peer-to-peer audio and video calls using WebRTC",
+      "Real-time signaling, participant updates, and in-call chat with Socket.IO",
+      "Screen sharing, media controls, user authentication, and meeting history",
+    ],
+    stack: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "WebRTC",
+      "Material UI",
+      "Render",
+    ],
     repoUrl: "https://github.com/Sahilji-95/Sahil-Zoom-Backend",
     demoUrl: "https://sahil-zoom.onrender.com/",
+    caseStudyUrl: "/projects/sahil-zoom",
     visual: "video",
   },
   {
